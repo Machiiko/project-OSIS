@@ -651,13 +651,12 @@ progress {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container, {
-    max-width: 100%;
-    
+  .container-sm, .container {
+    max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container-md, .container-sm, .container,  {
+  .container-md, .container-sm, .container {
     max-width: 720px;
   }
 }
@@ -4590,7 +4589,7 @@ textarea.form-control-lg {
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: rgba(0, 0, 0, 0.9);
+  color: lightblue;
 }
 
 .navbar-dark .navbar-brand {
@@ -4613,8 +4612,8 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: lightblue;
+  border-color: lightblue;
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -11488,7 +11487,7 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: lightblue;
   border: 1px solid #64a19d;
 }
 #mainNav .navbar-toggler:focus {
@@ -11728,7 +11727,7 @@ body {
   transform: translateY(0px);
   opacity: 1;
 }
-import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
     background: #eee !important;
 }
@@ -11846,7 +11845,7 @@ section .section-title {
   position:absolute;
   }
 
-  @media (min-width: 557px) {
+  @media (min-width: 400px){
     .map-responsive{
       height: 100%;
       width: 100%;
