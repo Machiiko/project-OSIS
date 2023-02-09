@@ -35,13 +35,14 @@ window.addEventListener('DOMContentLoaded', event => {
         new bootstrap.ScrollSpy(document.body, {
             target: '#mainNav',
             offset: 74,
+            
         });
     };
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
+        document.querySelectorAll('#offcanvasNavbar .nav-link')
     );
     responsiveNavItems.map(function (responsiveNavItem) {
         responsiveNavItem.addEventListener('click', () => {
@@ -75,3 +76,4 @@ function reveal(){
 }
 
 // Initialize and add the map
+
