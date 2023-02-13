@@ -12,6 +12,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @import "compass/css3";
  .logo-Osis{
     width: 50px;
 }
@@ -99,7 +100,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-hr {
+/* hr {
   margin: 1rem 0;
   color: inherit;
   background-color: currentColor;
@@ -109,7 +110,7 @@ hr {
 
 hr:not([size]) {
   height: 1px;
-}
+} */
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -11419,7 +11420,7 @@ body {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 40rem;
   padding: 20rem 0;
   background-image:linear-gradient(to top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.2) 75%, #000 100%),url("../Assets/img/slider1-scaled-e1585638874705.jpg");
   background-position: center;
@@ -11461,7 +11462,7 @@ body {
   }
   .masthead h1, .masthead .h1 {
     font-size: 3rem;
-    line-height: 6.5rem;
+    line-height: 4rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2, .masthead .h2 {
@@ -11499,7 +11500,7 @@ body {
   .projects-section .project-text {
     padding: 5rem;
   }
-  .projects-section .project-text hr {
+  .projects-section .project-text {
     border-color: #64a19d;
     border-width: 0.25rem;
     width: 30%;
@@ -11538,7 +11539,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
-.contact-section .card hr {
+.contact-section .card  {
   border-color: #64a19d;
   border-width: 0.25rem;
   width: 3rem;
@@ -11737,6 +11738,7 @@ section .section-title {
   padding-top: 200px;
   margin-bottom: 200px;
   
+  
 }
 
 /* #alamat{
@@ -11751,3 +11753,75 @@ section .section-title {
 .tulisan{
   color: white;
 }
+
+hr.icon {
+  margin: 25px auto 30px;
+  padding: 0;
+  border: 0;
+  border-top: solid 3px;
+  text-align: center;
+  color: #000;
+  }
+  
+  hr.maps::before {
+  content: "\f276";
+  display: inline-block;
+  position: relative;
+  top: -2rem;
+  padding: 0 1rem;
+  font-family:"Font Awesome 5 free";
+  font-weight: 900;
+  font-size: 2rem;
+  background-color: white;
+  
+  }
+
+  hr.garistanya::before{
+    content: "\f1d8";
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    padding: 0 1rem;
+    font-family:"Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 2rem;
+    background-color: white;
+  }
+  
+  hr.garisteam::before{
+    content: "\f007";
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    padding: 0 1rem;
+    font-family:"Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 2rem;
+    background-color: #eee;
+  }
+
+  hr.garisabout::before{
+    content: "\f549";
+    display: inline-block;
+    position: relative;
+    top: -2rem;
+    padding: 0 1rem;
+    font-family:"Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 2rem;
+    background-color: white;
+  }
+
+
+
+.pertanyaan{
+  text-transform: uppercase;
+}
+
+
+  .text-alamat{
+    margin-top: 50px;
+  }
+
+
+  
